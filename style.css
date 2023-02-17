@@ -1,0 +1,41 @@
+body {
+    background: #000 url(../img/bg-body.jpg) repeat-x center top;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+
+.accordionPanel {
+    margin: 0;
+    padding: 0;
+}
+
+.accordionPanelTab {
+    background-color: #555;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.accordionPanelTab:hover {
+    color: rgb(163, 210, 255);
+}
+
+.accordionPanelContent {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 315px;
+}
+
+.highlight {
+    color: rgb(255, 255, 255);
+    background-color: #999;
+}
