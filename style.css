@@ -1,16 +1,20 @@
 body {
-    background: #000 url(../img/bg-body.jpg) repeat-x center top;
+    background: #000 repeat-x center top;
     color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'Crimson Text', serif;
+    font-size: 15px;
     margin: 0;
 }
 
-
+.head {
+    font-family: 'Crimson Text', serif;
+    font-weight: bolder;
+}
 
 .accordionPanel {
-    margin: 0;
-    padding: 0;
+    padding: 1px;
+    margin: 0px;
+
 }
 
 .accordionPanelTab {
@@ -20,22 +24,60 @@ body {
     color: #fff;
     height: 35px;
     line-height: 35px;
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
 }
 
 .accordionPanelTab:hover {
-    color: rgb(163, 210, 255);
+    color: rgb(0, 0, 0);
 }
 
 .accordionPanelContent {
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    height: 315px;
+    background-color: white;
+    color: black;
 }
 
 .highlight {
     color: rgb(255, 255, 255);
     background-color: #999;
+}
+
+.card-body {
+    color: black;
+}
+
+.accordionPanelContent {
+    padding: 20px;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -o-transition: -o-transform 0.4s ease;
+    -ms-transition: -ms-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    box-sizing: border-box;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+
+.accordionPanelTab {
+    margin: 0px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
